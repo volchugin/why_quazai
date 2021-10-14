@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/denisvolchugin/WebProjects/why_quazai/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210627.0/
+$axios	src/boot/axios.ts	/^    $axios: AxiosInstance;$/;"	p	language:TypeScript	interface:ComponentCustomProperties
+$store	src/store/index.ts	/^    $store: VuexStore<StateInterface>$/;"	p	language:TypeScript	interface:ComponentCustomProperties
+AnonymousFunction99fb84710100	quasar.conf.js	/^module.exports = configure(function (ctx) {$/;"	f	language:JavaScript
+ComponentCustomProperties	src/boot/axios.ts	/^  interface ComponentCustomProperties {$/;"	i	language:TypeScript
+ComponentCustomProperties	src/store/index.ts	/^  interface ComponentCustomProperties {$/;"	i	language:TypeScript
+ExampleStateInterface	src/store/module-example/state.ts	/^export interface ExampleStateInterface {$/;"	i	language:TypeScript
+Meta	src/components/models.ts	/^export interface Meta {$/;"	i	language:TypeScript
+NODE_ENV	src/env.d.ts	/^    NODE_ENV: string;$/;"	p	language:TypeScript	interface:NodeJS.ProcessEnv
+NodeJS	src/env.d.ts	/^declare namespace NodeJS {$/;"	n	language:TypeScript
+ProcessEnv	src/env.d.ts	/^  interface ProcessEnv {$/;"	i	language:TypeScript	namespace:NodeJS
+QuasarFeatureFlags	src/store/store-flag.d.ts	/^  interface QuasarFeatureFlags {$/;"	i	language:TypeScript
+Router	src/router/index.ts	/^  const Router = createRouter({$/;"	C	language:TypeScript
+StateInterface	src/store/index.ts	/^export interface StateInterface {$/;"	i	language:TypeScript
+Store	src/store/index.ts	/^  const Store = createStore<StateInterface>({$/;"	C	language:TypeScript
+Todo	src/components/models.ts	/^export interface Todo {$/;"	i	language:TypeScript
+VUE_ROUTER_BASE	src/env.d.ts	/^    VUE_ROUTER_BASE: string | undefined;$/;"	p	language:TypeScript	interface:NodeJS.ProcessEnv
+VUE_ROUTER_MODE	src/env.d.ts	/^    VUE_ROUTER_MODE: 'hash' | 'history' | 'abstract' | undefined;$/;"	p	language:TypeScript	interface:NodeJS.ProcessEnv
+accent	src/css/quasar.variables.scss	/^$accent    : #9C27B0;$/;"	v	language:SCSS
+actions	src/store/module-example/actions.ts	/^const actions: ActionTree<ExampleStateInterface, StateInterface> = {$/;"	C	language:TypeScript
+actions	src/store/module-example/index.ts	/^  actions,$/;"	C	language:TypeScript
+api	src/boot/axios.ts	/^const api = axios.create({ baseURL: 'https:\/\/api.example.com' });$/;"	C	language:TypeScript
+browser	.eslintrc.js	/^    browser: true$/;"	p	language:JavaScript	class:module.exports.env
+component	src/shims-vue.d.ts	/^  const component: ComponentOptions$/;"	C	language:TypeScript
+content	src/components/models.ts	/^  content: string;$/;"	p	language:TypeScript	interface:Todo
+createHistory	src/router/index.ts	/^  const createHistory = process.env.SERVER$/;"	C	language:TypeScript
+dark	src/css/quasar.variables.scss	/^$dark      : #1D1D1D;$/;"	v	language:SCSS
+ecmaVersion	.eslintrc.js	/^    ecmaVersion: 2018, \/\/ Allows for the parsing of modern ECMAScript features$/;"	p	language:JavaScript	class:module.exports.parserOptions
+env	.eslintrc.js	/^  env: {$/;"	c	language:JavaScript	class:module.exports
+example	src/store/index.ts	/^  example: unknown$/;"	p	language:TypeScript	interface:StateInterface
+exampleModule	src/store/module-example/index.ts	/^const exampleModule: Module<ExampleStateInterface, StateInterface> = {$/;"	C	language:TypeScript
+exports	.eslintrc.js	/^module.exports = {$/;"	c	language:JavaScript	class:module
+exports	.postcssrc.js	/^module.exports = {$/;"	c	language:JavaScript	class:module
+extraFileExtensions	.eslintrc.js	/^    extraFileExtensions: ['.vue'],$/;"	p	language:JavaScript	class:module.exports.parserOptions
+getters	src/store/module-example/getters.ts	/^const getters: GetterTree<ExampleStateInterface, StateInterface> = {$/;"	C	language:TypeScript
+getters	src/store/module-example/index.ts	/^  getters,$/;"	C	language:TypeScript
+i18n	src/boot/i18n.ts	/^const i18n = createI18n({$/;"	C	language:TypeScript
+id	src/components/models.ts	/^  id: number;$/;"	p	language:TypeScript	interface:Todo
+info	src/css/quasar.variables.scss	/^$info      : #31CCEC;$/;"	v	language:SCSS
+mutation	src/store/module-example/mutations.ts	/^const mutation: MutationTree<ExampleStateInterface> = {$/;"	C	language:TypeScript
+mutations	src/store/module-example/index.ts	/^  mutations,$/;"	C	language:TypeScript
+negative	src/css/quasar.variables.scss	/^$negative  : #C10015;$/;"	v	language:SCSS
+parser	.eslintrc.js	/^    parser: '@typescript-eslint\/parser',$/;"	p	language:JavaScript	class:module.exports.parserOptions
+parserOptions	.eslintrc.js	/^  parserOptions: {$/;"	c	language:JavaScript	class:module.exports
+plugins	.postcssrc.js	/^  plugins: [$/;"	p	language:JavaScript	class:module.exports
+positive	src/css/quasar.variables.scss	/^$positive  : #21BA45;$/;"	v	language:SCSS
+primary	src/css/quasar.variables.scss	/^$primary   : #1976D2;$/;"	v	language:SCSS
+project	.eslintrc.js	/^    project: resolve(__dirname, '.\/tsconfig.json'),$/;"	p	language:JavaScript	class:module.exports.parserOptions
+prop	src/store/module-example/state.ts	/^  prop: boolean;$/;"	p	language:TypeScript	interface:ExampleStateInterface
+q-app	src/index.template.html	/^    <div id="q-app"><\/div>$/;"	I	language:HTML
+root	.eslintrc.js	/^  root: true,$/;"	p	language:JavaScript	class:module.exports
+routes	src/router/routes.ts	/^const routes: RouteRecordRaw[] = [$/;"	C	language:TypeScript
+secondary	src/css/quasar.variables.scss	/^$secondary : #26A69A;$/;"	v	language:SCSS
+sourceType	.eslintrc.js	/^    sourceType: 'module' \/\/ Allows for the use of imports$/;"	p	language:JavaScript	class:module.exports.parserOptions
+state	src/store/module-example/index.ts	/^  state$/;"	C	language:TypeScript
+state	src/store/module-example/state.ts	/^function state(): ExampleStateInterface {$/;"	f	language:TypeScript
+store	src/store/store-flag.d.ts	/^    store: true;$/;"	p	language:TypeScript	interface:QuasarFeatureFlags
+storeKey	src/store/index.ts	/^export const storeKey: InjectionKey<VuexStore<StateInterface>> = Symbol('vuex-key')$/;"	C	language:TypeScript
+totalCount	src/components/models.ts	/^  totalCount: number;$/;"	p	language:TypeScript	interface:Meta
+tsconfigRootDir	.eslintrc.js	/^    tsconfigRootDir: __dirname,$/;"	p	language:JavaScript	class:module.exports.parserOptions
+useStore	src/store/index.ts	/^export function useStore() {$/;"	f	language:TypeScript
+warning	src/css/quasar.variables.scss	/^$warning   : #F2C037;$/;"	v	language:SCSS
